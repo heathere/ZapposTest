@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face
+{
+font-family: Blanca;
+src: url('ARBLANCA.ttf');
+}
+
+@font-face
+{
+font-family: Matisse;
+src: url('matisse_.ttf');
+}
+
+body {
+  font-size: 1.1em;
+  font-family: Verdana, sans-serif;
+  color: gray;
+  background-color: black;
+  line-height: 1.25;
+}
+
+#container {
+  width: 90%;
+  margin: 0 auto;
+  border: 0.5%;
+  background-color: black;
+}
+
+#header {
+  font-size: 3em;
+  font-family: Matisse;
+  color: gray; 
+  text-align: center; 
+}
+
+#left {
+  width: 68%;
+  border-right: solid thin maroon;
+  padding: 0.5%;
+  float: left;
+}
+
+h2 {
+  margin-bottom: 0.5em;
+  font-family: Blanca;
+  text-align: center;
+}
+
+#left p {
+  margin-bottom: 1em;
+  text-indent: 1em;
+}
+
+#right {
+  width: 28%;
+  padding: 0.5%;
+  float: right;
+}
+
+#right ul li {
+  margin-left: 1em;
+  padding-top: 0;
+  list-style-position: inside;
+}
+
+#right ul li a {
+  color: gray;
+  text-decoration: none;
+}
+
+#right ul li a:hover {
+  color: maroon;
+}
+
+#right img {
+  display: block;
+  width: 100%;
+  height: 100%
+  border: 0;
+  border-style: none;
+  margin: 1em 0 2em 0;
+}
+
+#navbar {
+  background-color: black;
+  text-align: center;
+  padding: 0.5em 0 1em 0;
+}
+
+#navbar ul li {
+  display: inline;
+  list-style-type: none;
+  margin: 0.5em;
+  text-transform: uppercase;
+}
+
+#navbar ul li a {
+  color: maroon;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover {
+  color: black;
+  background-color: maroon;
+}
+
+#footer {
+  margin: 1em 0;
+  padding: 1em 0;
+  border-top: solid thin maroon;
+  clear: both;
+  text-align: center;
+  text-decoration: none;
+}
+
+#footer img {
+  display: inline;
+}
